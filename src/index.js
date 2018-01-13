@@ -10,7 +10,7 @@ const getProxy = require('./proxy');
 
 mongoose.Promise = q.Promise;
 
-mongoose.connect(process.env.MONDO_URI, {
+mongoose.connect(process.env.MONGODB_URI, {
   useMongoClient: true
 });
 
